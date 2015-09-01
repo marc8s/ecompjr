@@ -10,7 +10,7 @@ html, body {
 ul li{	
 	display: inline;/*remove the line breaks before and after each list item, to display them on one line*/
 	padding: 1%;
-	font-size: 1.6em;	
+	font-size: 1.2em;	
 }
 a{
 	text-decoration:none;
@@ -27,7 +27,7 @@ body section.size-section{
 	height: 100%;
 }
 footer{		
-	text-align:center;
+	text-align:right;
 	font-size: 1.5em;
 	padding: 1%;
 }
@@ -69,14 +69,23 @@ footer{
 	text-align: center;
 	padding: 2%;
 }
-
+.img-worksleft{
+	margin-left:25%; 
+	margin-right:auto;
+	max-width: 25%;
+    height: auto;
+}
+.img-worksright{
+	max-width: 25%;
+    height: auto;
+}
 #logo{	
 	margin: 1% 1% 1% 1%;
 	max-width:1.8em;
     height: auto;
 }
 #logomarca{		
-	margin-left:26%; 
+	margin-left:20%; 
 	margin-right:auto;
 	padding: 8%;
 	max-width: 50%;
