@@ -72,12 +72,8 @@ footer{
 	max-width:1.8em;
     height: auto;
 }
-#logomarca{			
-	/*padding: 7%;*/
-	/*vertical-align: bottom;*/
-	margin-top: 30%;
-	margin-bottom: 20%;
-
+#logomarca{	
+	margin-top: 20%;
 }
 #sessao1{
 	background-image: url("../img/bg-s1.jpg");	
@@ -88,6 +84,9 @@ footer{
 #div-with-all-rows{
 	height:100%;
 	width: 100%;
+}
+#button-nav{
+	margin-left: 40%;
 }
 
 

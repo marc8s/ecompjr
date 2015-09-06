@@ -9,7 +9,7 @@
 		<!-- Incluindo o JavaScript do Bootstrap -->
 		<script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
 		<title>
-			TASK 02
+			TASK 03
 		</title>		 
 	</head>
 	<body>	
@@ -27,10 +27,12 @@
 				</nav>			
 			</header>		
 			<section id="sessao1" class="size-section row">
+				
 				<div class="col-md-4"> </div>
 				<div class="col-md-4  ">
 					<img id="logomarca" src="img/logomarca.png" alt="logomarca" class="img-responsive center-block " >
-				</div>
+					<a href="#sessao2" class="btn btn-primary scroll" id="button-nav">Próximo</a>					
+				</div>				
 			</section>			
 			<section id="sessao2" class="green-bg size-section row content-justify">
 				<div class="col-md-4"> </div>
@@ -72,5 +74,14 @@
 					EcompJr - Empresa Júnior de Computação da UEFS.			
 			</footer>
 		</div>
+		<!--DESLIZAR PARA BAIXO-->
+		<script type="text/javascript">
+			jQuery(document).ready(function($) { 
+				$(".scroll").click(function(event){        
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
+			   });
+			});
+		</script>
 	</body>
 </html>

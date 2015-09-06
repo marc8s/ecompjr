@@ -15,4 +15,5 @@ Colocar imagens alinhadas a esquerda e direita nas sessões seguintes.
 #TASK 3#
 Acrescentar formulário de contato.
 Deixar o menu fixo na tela.
+Rolagem suave com Jquery
 Acrescentar efeitos usando javascript e bootstrap.
