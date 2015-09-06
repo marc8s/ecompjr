@@ -12,58 +12,65 @@
 			TASK 02
 		</title>		 
 	</head>
-	<body>		
-		<header>			
-			<nav class="navbar navbar-default navbar-fixed-top">
-				<img id="logo" src="img/logo.svg" alt="logo" class="put-left">
-				<ul class="white-bg menu">					
-					<li><a href="#sessao1">Home</a></li>
-					<li><a href="#sessao2">O que nós fazemos</a></li>
-					<li><a href="#sessao3">Quem somos nós</a></li>
-					<li><a href="#sessao4">Nossos trabalhos</a></li>
-					<li><a href="#sessao5">Contato</a></li>
-				</ul>
-			</nav>			
-		</header>		
-		<section id="sessao1" class="yellow-bg size-section">	
-			<img id="logomarca" src="img/logomarca.png" alt="logomarca">
-		</section>			
-		<section id="sessao2" class="green-bg size-section">
-			<div class="content-box white-bg put-right">
-				<h2>O que nós fazemos</h2>
-				<br><p>Soluções de software em geral para o comércio e indústria e para você, desenvolvendo websites, aplicações desktop e aplicações para dispositivos móveis. Soluções para a sua empresa, seu evento ou seu projeto, com design moderno e responsivo, compatíveis com qualquer dispositivo, aproveitando das mais atuais ferramentas para construção de sites. Além disso, prestamos serviços de consultoria e projeto.
-				</p>
-			</div>
-		</section>
-		<section id="sessao3" class="blue-bg size-section">
-			<div class="content-box white-bg put-left">
-				<h2>Quem somos nós</h2>
-				<br><p>A Ecomp Jr. é uma empresa inserida no contexto de Empresas Juniores no Brasil. É constituída por alunos graduandos do curso de Engenharia de Computação da UEFS e tem como diferencial a sua diversidade de servições e os seus baixos preços em comparação aos encontrados no mercado, oferecendo um serviço de qualidade para o cliente.
-				</p>
-			</div>
-		</section>
-		<section id="sessao4" class="navyblue-bg size-section">
-			<div class="content">
-				<h2>Nosso Trabalho</h2>
-				<br><p>Confira alguns das tecnologias e atividades que a Empresa Junior de Engenharia de Computação utiliza e promove dentro e fora do meio academico.
-				</p>
-			</div>
-			<div>
-				<img id="desweb" src="img/desweb.jpg" alt="desenvolvimento web" class="img-worksleft">
-				<img id="consultoria" src="img/cons.jpg" alt="consultoria" class="img-worksright">
-				<br><img id="desmob" src="img/desmob.jpg" alt="desenvolvimento mobile" class="img-worksleft">
-				<img id="curinf" src="img/curinf.jpg" alt="cursos de informatica" class="img-worksright" >
-			</div>
-		</section>
-		<section id="sessao5" class="white-bg size-section">
-			<div class="content">
-				<h2>Diga Olá</h2>
-				<br><p>Entre em contato conosco.
-				</p>
-			</div>
-		</section>
-		<footer class="purple-bg">			
-				EcompJr - Empresa Júnior de Computação da UEFS.			
-		</footer>
+	<body>	
+		<div class="container-fluid" id="div-with-all-rows">	
+			<header class="row">			
+				<nav class="navbar navbar-default navbar-fixed-top">
+					<img id="logo" src="img/logo.svg" alt="logo" class="put-left">
+					<ul class="white-bg menu">					
+						<li><a href="#sessao1">Home</a></li>
+						<li><a href="#sessao2">O que nós fazemos</a></li>
+						<li><a href="#sessao3">Quem somos nós</a></li>
+						<li><a href="#sessao4">Nossos trabalhos</a></li>
+						<li><a href="#sessao5">Contato</a></li>
+					</ul>
+				</nav>			
+			</header>		
+			<section id="sessao1" class="size-section row">
+				<div class="col-md-4"> </div>
+				<div class="col-md-4  ">
+					<img id="logomarca" src="img/logomarca.png" alt="logomarca" class="img-responsive center-block " >
+				</div>
+			</section>			
+			<section id="sessao2" class="green-bg size-section row content-justify">
+				<div class="col-md-4"> </div>
+				<div class="col-md-4"> </div>
+				<div class=" white-bg col-md-4">
+					<h2>O que nós fazemos</h2>
+					<br><p>Soluções de software em geral para o comércio e indústria e para você, desenvolvendo websites, aplicações desktop e aplicações para dispositivos móveis. Soluções para a sua empresa, seu evento ou seu projeto, com design moderno e responsivo, compatíveis com qualquer dispositivo, aproveitando das mais atuais ferramentas para construção de sites. Além disso, prestamos serviços de consultoria e projeto.
+					</p>
+				</div>
+			</section>
+			<section id="sessao3" class="blue-bg size-section row content-justify">
+				<div class="white-bg col-md-4">
+					<h2>Quem somos nós</h2>
+					<br><p>A Ecomp Jr. é uma empresa inserida no contexto de Empresas Juniores no Brasil. É constituída por alunos graduandos do curso de Engenharia de Computação da UEFS e tem como diferencial a sua diversidade de servições e os seus baixos preços em comparação aos encontrados no mercado, oferecendo um serviço de qualidade para o cliente.
+					</p>
+				</div>
+			</section>
+			<section id="sessao4" class="navyblue-bg size-section row">
+				<div class="content">
+					<h2>Nosso Trabalho</h2>
+					<br><p>Confira alguns das tecnologias e atividades que a Empresa Junior de Engenharia de Computação utiliza e promove dentro e fora do meio academico.
+					</p>
+				</div>
+				<div>
+					<img id="desweb" src="img/desweb.jpg" alt="desenvolvimento web" class="img-worksleft">
+					<img id="consultoria" src="img/cons.jpg" alt="consultoria" class="img-worksright">
+					<br><img id="desmob" src="img/desmob.jpg" alt="desenvolvimento mobile" class="img-worksleft">
+					<img id="curinf" src="img/curinf.jpg" alt="cursos de informatica" class="img-worksright" >
+				</div>
+			</section>
+			<section id="sessao5" class="white-bg size-section row">
+				<div class="content">
+					<h2>Diga Olá</h2>
+					<br><p>Entre em contato conosco.
+					</p>
+				</div>
+			</section>
+			<footer class="purple-bg row">			
+					EcompJr - Empresa Júnior de Computação da UEFS.			
+			</footer>
+		</div>
 	</body>
 </html>

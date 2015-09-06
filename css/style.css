@@ -5,7 +5,6 @@
 html, body {
 	height: 100%;
 	width: 100%;
-	
 }
 ul li{	
 	display: inline;/*remove the line breaks before and after each list item, to display them on one line*/
@@ -21,9 +20,7 @@ a{
 	text-align: right;	
 	
 }
-
-body section.size-section{
-	width: 100%;
+.size-section{	
 	height: 100%;
 }
 footer{		
@@ -33,9 +30,6 @@ footer{
 }
 .white-bg{
 	background-color: #FFFFFF;	
-}
-.yellow-bg{
-	background-color: #FFFF00;	
 }
 .green-bg{
 	background-color: #00FF00;	
@@ -56,14 +50,8 @@ footer{
 	float:left;
 }
 
-.content-box{
-	width:30%; 
-	height: 80%;	
-	padding: 2%;	
-	margin-top: 5.3%;
-	text-align: justify;
-	overflow:hidden;	
-	
+.content-justify{
+	text-align: justify;	
 }
 .content{	
 	text-align: center;
@@ -84,13 +72,24 @@ footer{
 	max-width:1.8em;
     height: auto;
 }
-#logomarca{		
-	margin-left:20%; 
-	margin-right:auto;
-	padding: 8%;
-	max-width: 50%;
-    height: auto;
+#logomarca{			
+	/*padding: 7%;*/
+	/*vertical-align: bottom;*/
+	margin-top: 30%;
+	margin-bottom: 20%;
+
 }
+#sessao1{
+	background-image: url("../img/bg-s1.jpg");	
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+#div-with-all-rows{
+	height:100%;
+	width: 100%;
+}
+
 
 
 
