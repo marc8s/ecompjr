@@ -31,6 +31,9 @@ footer{
 .white-bg{
 	background-color: #FFFFFF;	
 }
+.gray-bg{
+	background-color: #EBEBE0;	
+}
 .green-bg{
 	background-color: #00FF00;	
 }
@@ -53,7 +56,7 @@ footer{
 .content-justify{
 	text-align: justify;	
 }
-.content{	
+.content-center{	
 	text-align: center;
 	padding: 2%;
 }
@@ -88,6 +91,12 @@ footer{
 #button-nav{
 	margin-left: 40%;
 }
+#div-form{
+	margin-left: 20%;
+	margin-right: 20%;
+	height:80%;
+}
+
 
 
 
