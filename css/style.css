@@ -40,9 +40,6 @@ footer{
 .blue-bg{
 	background-color: #0099FF;
 }
-.navyblue-bg{
-	background-color: #0000CC;
-}
 .purple-bg{
 	background-color: #6600CC;
 }
@@ -88,13 +85,19 @@ footer{
 	height:100%;
 	width: 100%;
 }
-#button-nav{
+#button-nav1{
 	margin-left: 40%;
+}
+#button-nav2{	
+	margin-left: 46%;
+}
+#button-nav3{	
+	margin-left: 13%;
 }
 #div-form{
 	margin-left: 20%;
 	margin-right: 20%;
-	height:80%;
+	height:70%;
 }
 
 
