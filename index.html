@@ -26,8 +26,7 @@
 					</ul>
 				</nav>			
 			</header>		
-			<section id="sessao1" class="size-section row">
-				
+			<section id="sessao1" class="size-section row">				
 				<div class="col-md-4"> </div>
 				<div class="col-md-4  ">
 					<img id="logomarca" src="img/logomarca.png" alt="logomarca" class="img-responsive center-block " >
@@ -36,30 +35,40 @@
 			</section>			
 			<section id="sessao2" class="green-bg size-section row content-justify">
 				<br><br><br><br>
-				<div class="col-md-4"> </div>
-				<div class="col-md-4"> </div>				
-				<div class=" white-bg col-md-4" id="what-we-do">
-					<h2>O que nós fazemos</h2>
-					<br><p>Soluções de software em geral para o comércio e indústria e para você, desenvolvendo websites, aplicações desktop e aplicações para dispositivos móveis. Soluções para a sua empresa, seu evento ou seu projeto, com design moderno e responsivo, compatíveis com qualquer dispositivo, aproveitando das mais atuais ferramentas para construção de sites. Além disso, prestamos serviços de consultoria e projeto.
-					</p>
-				</div>
-				<a href="#sessao3" class="btn btn-primary scroll" id="button-nav2">Próximo</a>
+				<header>
+					<div class="col-md-8"> </div>								
+					<div class=" white-bg col-md-4" id="what-we-do">
+						<h2>O que nós fazemos</h2>
+						<br><p>Soluções de software em geral para o comércio e indústria e para você, desenvolvendo websites, aplicações desktop e aplicações para dispositivos móveis. Soluções para a sua empresa, seu evento ou seu projeto, com design moderno e responsivo, compatíveis com qualquer dispositivo, aproveitando das mais atuais ferramentas para construção de sites. Além disso, prestamos serviços de consultoria e projeto.
+						</p>
+					</div>
+				<header>
+				<footer>					
+					<div class="col-md-12">
+						<a href="#sessao3" class="btn btn-primary scroll" id="button-nav2">Próximo</a>
+					</div>
+				</footer>
 			</section>
 			<section id="sessao3" class="blue-bg size-section row content-justify">
 				<br><br><br><br>
-				<div class="white-bg col-md-4" id="who-we-are">
-					<h2>Quem somos nós</h2>
-					<br><p>A Ecomp Jr. é uma empresa inserida no contexto de Empresas Juniores no Brasil. É constituída por alunos graduandos do curso de Engenharia de Computação da UEFS e tem como diferencial a sua diversidade de servições e os seus baixos preços em comparação aos encontrados no mercado, oferecendo um serviço de qualidade para o cliente.
-					</p>
-				</div>
-				<a href="#sessao4" class="btn btn-primary scroll" id="button-nav3">Próximo</a>
+				<header>
+					<div class="white-bg col-md-4" id="who-we-are">
+						<h2>Quem somos nós</h2>
+						<br><p>A Ecomp Jr. é uma empresa inserida no contexto de Empresas Juniores no Brasil. É constituída por alunos graduandos do curso de Engenharia de Computação da UEFS e tem como diferencial a sua diversidade de servições e os seus baixos preços em comparação aos encontrados no mercado, oferecendo um serviço de qualidade para o cliente.
+						</p>
+					</div>
+				</header>
+				<footer>
+					<div class="col-md-12">
+						<a href="#sessao4" class="btn btn-primary scroll" id="button-nav3">Próximo</a>
+					</div>
+				</footer>
 			</section>
 			<section id="sessao4" class="white-bg size-section row">
 				<div class="content-center">
 					<br>
 					<h2>Nosso Trabalho</h2>
-					<br><p>Confira alguns das tecnologias e atividades que a Empresa Junior de Engenharia de Computação utiliza e promove dentro e fora do meio academico.
-					</p>
+					<br><p>Confira alguns das tecnologias e atividades que a Empresa Junior de Engenharia de Computação utiliza e promove dentro e fora do meio academico.</p>
 				</div>
 				<div>
 					<img id="desweb" src="img/desweb.jpg" alt="desenvolvimento web" class="img-worksleft">
@@ -99,12 +108,10 @@
 					$('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
 			   });
 			});
-			<!--DESLIZAR ESQUERDA PARA DIREITA-->
+			<!--Lateral On-Scroll Sliding-->
 			$(window).scroll(function() {
-				if ($(this).scrollTop() > 0) {
-					// apply effects and animations
-				}
-			});
+				   <!--do stuff here...-->
+			});			
 		</script>
 		
 	</body>

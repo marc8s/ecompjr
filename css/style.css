@@ -84,21 +84,33 @@ footer{
 #div-with-all-rows{
 	height:100%;
 	width: 100%;
+	position: relative;
+	
 }
 #button-nav1{
 	margin-left: 40%;
 }
 #button-nav2{	
-	margin-left: 46%;
+	margin-right: 46%;
+	
 }
 #button-nav3{	
-	margin-left: 13%;
+	margin-right: 46%;
 }
 #div-form{
 	margin-left: 20%;
 	margin-right: 20%;
 	height:70%;
 }
+#what-we-do{
+	position: relative;
+}
+#who-we-are{
+
+	position: relative;
+}
+
+
 
 
 
