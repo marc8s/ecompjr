@@ -41,15 +41,10 @@ footer{
 .gray-bg{
 	background-color: #EBEBE0;	
 }
-.green-bg{
-	background-color: #00FF00;	
-}
 .blue-bg{
 	background-color: #0099FF;
 }
-.purple-bg{
-	background-color: #6600CC;
-}
+
 .put-right{
 	float:right;
 }
@@ -85,9 +80,20 @@ footer{
 #sessao1{
 	background-image: url("../img/bg-s1.jpg");	
 	background-repeat: no-repeat;
-	background-size: cover;
-	
+	background-size: cover;	
 }
+#sessao2{
+	background-image: url("../img/ipad.jpg");	
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+#sessao3{
+	background-image: url("../img/startup-594091_1280.jpg");	
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
+
 #div-with-all-rows{
 	height:100%;
 	width: 100%;
