@@ -37,7 +37,7 @@
 				<br><br><br><br>
 				<header>
 					<div class="col-md-8"> </div>								
-					<div class=" white-bg col-md-4" id="what-we-do">
+					<div class=" white-bg col-md-4 animateblock right" id="what-we-do">
 						<h2>O que nós fazemos</h2>
 						<br><p>Soluções de software em geral para o comércio e indústria e para você, desenvolvendo websites, aplicações desktop e aplicações para dispositivos móveis. Soluções para a sua empresa, seu evento ou seu projeto, com design moderno e responsivo, compatíveis com qualquer dispositivo, aproveitando das mais atuais ferramentas para construção de sites. Além disso, prestamos serviços de consultoria e projeto.
 						</p>
@@ -52,7 +52,7 @@
 			<section id="sessao3" class="blue-bg size-section row content-justify">
 				<br><br><br><br>
 				<header>
-					<div class="white-bg col-md-4" id="who-we-are">
+					<div class="white-bg col-md-4 animateblock left" id="who-we-are">
 						<h2>Quem somos nós</h2>
 						<br><p>A Ecomp Jr. é uma empresa inserida no contexto de Empresas Juniores no Brasil. É constituída por alunos graduandos do curso de Engenharia de Computação da UEFS e tem como diferencial a sua diversidade de servições e os seus baixos preços em comparação aos encontrados no mercado, oferecendo um serviço de qualidade para o cliente.
 						</p>
@@ -71,7 +71,7 @@
 					<br><p>Confira alguns das tecnologias e atividades que a Empresa Junior de Engenharia de Computação utiliza e promove dentro e fora do meio academico.</p>
 				</div>
 				<div>
-					<img id="desweb" src="img/desweb.jpg" alt="desenvolvimento web" class="img-worksleft">
+					<img id="desweb" src="img/desweb.jpg" alt="desenvolvimento web" class="img-worksleft ">
 					<img id="consultoria" src="img/cons.jpg" alt="consultoria" class="img-worksright">
 					<br><img id="desmob" src="img/desmob.jpg" alt="desenvolvimento mobile" class="img-worksleft">
 					<img id="curinf" src="img/curinf.jpg" alt="cursos de informatica" class="img-worksright" >
@@ -83,7 +83,7 @@
 					<h2>Diga Olá</h2>
 					<br><p>Entre em contato conosco.</p>					
 				</div>
-				<div class="content-center white-bg" id="div-form" >
+				<div class="content-center white-bg animateblock top" id="div-form" >
 					<form >						
 						<input type="text" placeholder="Nome" class="col-md-6">	
 						<input type="text" placeholder="Email" class="col-md-6">
@@ -109,9 +109,38 @@
 			   });
 			});
 			<!--Lateral On-Scroll Sliding-->
-			$(window).scroll(function() {
+		//	$(window).scroll(function() {
 				   <!--do stuff here...-->
-			});			
+				   <!--$("#who-we-are").animate({"left" : "10em"},900);				  
+		//	});	
+			$(function(){
+			  var $elems = $('.animateblock');
+			  var winheight = $(window).height();
+			  var fullheight = $(document).height();
+			  
+			  $(window).scroll(function(){
+				animate_elems();
+			  });
+			  
+			  function animate_elems() {
+				wintop = $(window).scrollTop(); // calculate distance from top of window
+			 
+				// loop through each item to check when it animates
+				$elems.each(function(){
+				  $elm = $(this);
+				  
+				  if($elm.hasClass('animated')) { return true; } // if already animated skip to the next item
+				  
+				  topcoords = $elm.offset().top; // element's distance from top of page in pixels
+				  
+				  if(wintop > (topcoords - (winheight*.75))) {
+					// animate when top of the window is 3/4 above the element
+					$elm.addClass('animated');
+				  }
+				});
+			  } // end animate_elems()
+			});
+			
 		</script>
 		
 	</body>
